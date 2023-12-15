@@ -1,2 +1,2 @@
 # Python-practice
-Simple Python Coding Problems
+1st: even odd finding
