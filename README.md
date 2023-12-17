@@ -6,3 +6,4 @@
 5th: Newton Ramphson for finding squareroot. <br>
 6th: Fibnacci using recursion. <br>
 7th: Palindrone using recursion. <br>
+8th: Playing with tuple, there is tuple which contain multiple tuple of this type "(int,str)" try to find max, min integer and number of unique words.  <br>
