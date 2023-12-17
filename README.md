@@ -5,3 +5,4 @@
 4th: Changing decimal number to binary. <br>
 5th: Newton Ramphson for finding squareroot. <br>
 6th: Fibnacci using recursion. <br>
+7th: Palindrone using recursion. <br>
