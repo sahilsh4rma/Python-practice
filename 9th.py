@@ -9,3 +9,6 @@ l1=list(s)
 print(l1) 
 #
 #''.join(list_name) use
+s=["Sahil sharma","Sahil_Sharma"]
+x="_".join(s)
+print(x)

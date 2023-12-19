@@ -8,3 +8,4 @@
 7th: Palindrone using recursion. <br>
 8th: Playing with tuple, there is tuple which contain multiple tuple of this type "(int,str)" try to find max, min integer and number of unique words.  <br>
 9th: Some function to work with lists and strings. <br>
+10th: code for fiding the words with highest frequences in a song. <br>
