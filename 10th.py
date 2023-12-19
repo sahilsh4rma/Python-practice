@@ -2,7 +2,7 @@ song="tu tu hai wahi dil ne jise apna kaha Tu hai jahan main hoon wahan Ab to ye
 
 song_list=song.split()
 def lyricsOp(song_list):
-    words=[]
+    words=[]                    
     need_words=[]
     max_freq=0
     for i in song_list:
