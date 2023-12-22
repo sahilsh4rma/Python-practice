@@ -20,24 +20,30 @@ l1.sort()
 def best_bisec(l1,e):
     def b(low,high,l,e):
         if(high==low):
-            return l[low]==e,low
+            if l[low]==e:
+                return True,low
+            else:
+                return False,-1
         mid=(low+high)//2
         if l[mid]==e:
             return True,mid
         elif l[mid]>e:
             if mid==low:
                 return False
-            return b(low,mid,l,e)
+            else:
+                return b(low,mid-1,l,e)
         else:
             if mid==high:
                 return False
-            return b(mid,high,l,e)
+            else:
+                return b(mid+1,high,l,e)
     length=len(l1)
     if length==0:
         return False
     else:
         return(b(0,length,l1,e))
-print(best_bisec(l1,8))
+print(l1)
+print(best_bisec(l1,65))
 
      
     
