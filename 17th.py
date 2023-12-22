@@ -1,5 +1,5 @@
 l1=[12,45,65,6,5,64,4]
-def merge(l):
+def buble(l):
     length=len(l)-1
     while(length>0):
         for i in range(0,length):
@@ -9,4 +9,4 @@ def merge(l):
                 pass
         length=length-1
     return l
-print(merge(l1))
+print(buble(l1))
