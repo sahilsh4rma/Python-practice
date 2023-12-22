@@ -16,3 +16,4 @@
 15th: Inheritence in classes. <br>
 16th: bisection search using recursion (2nd one is better)<br>
 17th: Merge sort <br>
+18th: Selection Sort <br>
